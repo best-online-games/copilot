@@ -6,3 +6,11 @@ $bog_copilot $mol_book2_catalog
 		<= Theme $bog_theme_auto
 			theme_light \$mol_theme_light
 			theme_dark \$mol_theme_dark
+	spreads *
+		\	
+			<= Bot $giper_bot
+				Space null
+				Sources null
+				Donate null
+				Support null
+				Lights null
