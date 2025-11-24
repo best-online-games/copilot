@@ -1,1 +1,8 @@
 $bog_copilot $mol_book2_catalog
+	menu_tools /
+		<= Theme_toggle $bog_theme_toggle
+			theme_auto <= Theme 
+	plugins /
+		<= Theme $bog_theme_auto
+			theme_light \$mol_theme_light
+			theme_dark \$mol_theme_dark
