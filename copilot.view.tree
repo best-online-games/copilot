@@ -8,9 +8,5 @@ $bog_copilot $mol_book2_catalog
 			theme_dark \$mol_theme_dark
 	spreads *
 		\	
-			<= Bot $giper_bot
-				Space null
-				Sources null
-				Donate null
-				Support null
-				Lights null
+			<= Bot $bog_dobro_app_prof
+		charity <= Charity $bog_dobro_app_charity
